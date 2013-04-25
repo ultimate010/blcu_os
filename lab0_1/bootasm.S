@@ -1,5 +1,4 @@
 
-
 # start address should be 0:7c00, in real mode, the beginning address of the running bootloader
 .globl start
 start:
@@ -10,7 +9,7 @@ start:
     xorw %ax, %ax                                   # 把所有ax,es,ss都置为0  Segment number zero
     movw %ax, %ds                                   # -> Data Segment
     movw %ax, %es                                   # -> Extra Segment
-    movw %ax, %ss                                   # -> Stack Segment
+    movw %ax, %ss                                   # -> Stack Segment    
 
     mov $Message,%ax
     mov %ax,%bp
