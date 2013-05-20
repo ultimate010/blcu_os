@@ -12,6 +12,8 @@ lab0_2: 汇编与c语言的相互调用
 
 lab0_3: 简单的bootloader引导kernel
 
+lab0_4: 简单bootloader读取扇区岛内从并引导kernel
+
 说明：每个实验基本都有Makefile，直接到目录下运行make run就可以运行，具体代码基本都有注释。
 
 course_extensions:

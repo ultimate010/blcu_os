@@ -1,2 +1,2 @@
-���з���Ϊɾ�� make qemu
-ʵ�ֹ��ܣ���boot�������������صڶ���������kernel���ݵ��ڴ棬Ȼ����ת���Ƕ�ִ��kernel�Ĵ��롣
+运行方法为删除 make qemu
+实现功能，从boot扇区引导，加载第二个扇区的kernel内容到内存，然后跳转到那儿执行kernel的代码。
